@@ -1,0 +1,9 @@
+{
+  "[project]/project1/node_modules/@yudiel/react-qr-scanner/dist/index.esm.mjs [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/project1/node_modules/@yudiel/react-qr-scanner/dist/index.esm.mjs [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/2926c_097cac5f._.js",
+      "static/chunks/2926c_@yudiel_react-qr-scanner_dist_index_esm_mjs_a64eabc6._.js"
+    ]
+  }
+}

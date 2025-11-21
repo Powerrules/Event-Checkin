@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/coding/project1/app/page.tsx"],"sourcesContent":["\"use client\"\n\nimport { useEffect } from \"react\"\nimport { useRouter } from \"next/navigation\"\nimport { useAuth } from \"@/lib/auth-context\"\n\nexport default function HomePage() {\n  const router = useRouter()\n  const { user, loading } = useAuth()\n\n  useEffect(() => {\n    if (!loading) {\n      if (user) {\n        router.push(\"/dashboard\")\n      } else {\n        router.push(\"/login\")\n      }\n    }\n  }, [user, loading, router])\n\n  return (\n    <div className=\"min-h-screen flex items-center justify-center\">\n      <div className=\"animate-spin rounded-full h-12 w-12 border-b-2 border-primary\" />\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AACA;;;AAJA;;;;AAMe,SAAS;;IACtB,MAAM,SAAS,IAAA,8JAAS;IACxB,MAAM,EAAE,IAAI,EAAE,OAAO,EAAE,GAAG,IAAA,iJAAO;IAEjC,IAAA,sLAAS;8BAAC;YACR,IAAI,CAAC,SAAS;gBACZ,IAAI,MAAM;oBACR,OAAO,IAAI,CAAC;gBACd,OAAO;oBACL,OAAO,IAAI,CAAC;gBACd;YACF;QACF;6BAAG;QAAC;QAAM;QAAS;KAAO;IAE1B,qBACE,yMAAC;QAAI,WAAU;kBACb,cAAA,yMAAC;YAAI,WAAU;;;;;;;;;;;AAGrB;GAnBwB;;QACP,8JAAS;QACE,iJAAO;;;KAFX"}}]
+}

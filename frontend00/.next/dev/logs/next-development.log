@@ -1,0 +1,430 @@
+[00:00:03.201] Server  LOG     
+[00:00:03.201] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:03.202] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:03.204] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:03.204] Server  LOG     
+[00:00:03.205] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:03.205] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:03.206] Server  LOG     
+[00:00:03.615] Server  LOG      ✓ Ready in 2.7s
+[00:00:14.564] Server  LOG      ○ Compiling / ...
+[00:00:22.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.103] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:24.103] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:24.103] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:00:24.103] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763670792872}
+[00:00:24.103] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763670792873}
+[00:00:27.759] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763670796526}
+[00:15:30.458] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763671699214}
+[00:18:29.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:29.522] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:29.522] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:18:29.522] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763671878274}
+[00:25:31.594] Server  LOG      ✓ Compiled in 293ms
+[00:25:36.751] Server  LOG      ✓ Compiled in 110ms
+[00:26:14.512] Server  LOG      ○ Compiling /dashboard ...
+[00:26:16.106] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672344873}
+[00:26:25.242] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/create color: rgb(120, 120, 120) color: inherit {"dp":"/events/create","o":"http://localhost:3000/events/create","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672354013}
+[00:26:30.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672359709}
+[00:26:33.750] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672362518}
+[00:26:39.154] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672367877}
+[00:26:42.746] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672371412}
+[00:26:43.017] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[00:27:35.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:36.189] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:36.189] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:27:36.189] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672424809}
+[00:27:36.189] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[00:27:40.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:41.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:41.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:27:41.200] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672429974}
+[00:27:45.954] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/create color: rgb(120, 120, 120) color: inherit {"dp":"/events/create","o":"http://localhost:3000/events/create","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672434727}
+[00:27:47.413] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672436180}
+[00:28:05.493] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672454238}
+[00:28:05.748] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[00:28:56.863] Server  LOG      ✓ Compiled in 120ms
+[00:28:57.424] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:03.056] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:03.068] Server  LOG      ✓ Compiled in 85ms
+[00:29:04.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:06.030] Server  LOG      ✓ Compiled in 84ms
+[00:29:06.425] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:06.425] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:29:06.425] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672514488}
+[00:29:06.425] Browser ERROR   uncaughtError: TypeError: events is not a function
+[00:29:06.425] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:09.794] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:09.814] Server  LOG      ✓ Compiled in 95ms
+[00:29:12.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:13.098] Server  LOG      ✓ Compiled in 88ms
+[00:29:13.265] Server  ERROR    ⨯ ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+
+
+[00:29:14.878] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:14.878] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:14.878] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:14.878] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:29:14.878] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672522213}
+[00:29:14.878] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:14.878] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:15.436] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:15.436] Browser ERROR   Failed to fetch events: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:3000","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/events","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/2926c_b99f99d9._.js:3943:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/2926c_b99f99d9._.js:4458:186)\n    at Axios.request (http://localhost:3000/_next/static/chunks/2926c_b99f99d9._.js:5262:49)\n    at async EventsPage.useEffect.fetchEvents (http://localhost:3000/_next/static/chunks/project1_8eb5cea2._.js:962:42)","status":500}
+[00:29:25.254] Server  LOG      ✓ Compiled in 81ms
+[00:29:32.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:33.038] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:33.038] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:29:33.038] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672541699}
+[00:29:33.038] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[00:29:37.658] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:38.319] Server  LOG      ✓ Compiled in 177ms
+[00:29:38.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:38.964] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:38.964] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:29:38.964] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672547654}
+[00:29:38.964] Browser ERROR   uncaughtError: TypeError: events is not a function
+[00:29:42.713] Server  LOG      ✓ Compiled in 173ms
+[00:29:42.822] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:47.157] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:48.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:49.111] Server  LOG      ✓ Compiled in 99ms
+[00:29:49.483] Browser ERROR   ./project1/app/events/page.tsx:81:48
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {<events className="join"></events>((event) => (
+     |                                                ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:49.584] Server  ERROR    ⨯ ./project1/app/events/page.tsx:81:48
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {<events className="join"></events>((event) => (
+     |                                                ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+
+
+[00:29:50.433] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:50.433] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:29:50.433] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672558454}
+[00:29:50.433] Browser ERROR   ./project1/app/events/page.tsx:81:48
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {<events className="join"></events>((event) => (
+     |                                                ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:50.433] Browser ERROR   Failed to fetch events: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:3000","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/events","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/2926c_b99f99d9._.js:3943:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/2926c_b99f99d9._.js:4458:186)\n    at Axios.request (http://localhost:3000/_next/static/chunks/2926c_b99f99d9._.js:5262:49)\n    at async EventsPage.useEffect.fetchEvents (http://localhost:3000/_next/static/chunks/project1_8eb5cea2._.js:962:42)","status":500}
+[00:29:50.433] Browser ERROR   ./project1/app/events/page.tsx:81:48
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {<events className="join"></events>((event) => (
+     |                                                ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:29:55.332] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/create color: rgb(120, 120, 120) color: inherit {"dp":"/events/create","o":"http://localhost:3000/events/create","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672564093}
+[00:29:57.679] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672566210}
+[00:29:57.916] Browser ERROR   uncaughtError: TypeError: events.join is not a function
+[00:30:04.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:04.559] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:04.559] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:30:04.559] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672573224}
+[00:30:04.559] Browser ERROR   uncaughtError: TypeError: events.join is not a function
+[00:30:11.311] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:11.334] Server  LOG      ✓ Compiled in 96ms
+[00:30:12.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:14.415] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[00:30:14.634] Server  LOG      ✓ Compiled in 110ms
+[00:30:15.426] Browser ERROR   ./project1/app/events/page.tsx:81:21
+Parsing ecmascript source code failed
+  79 |         ) : (
+  80 |           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+> 81 |             {events.((event) => (
+     |                     ^
+  82 |               <EventCard key={event.id} {...event} />
+  83 |             ))}
+  84 |           </div>
+
+Expected '</', got '('
+
+Import traces:
+  Client Component Browser:
+    ./project1/app/events/page.tsx [Client Component Browser]
+    ./project1/app/events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./project1/app/events/page.tsx [Client Component SSR]
+    ./project1/app/events/page.tsx [Server Component]
+[00:30:15.647] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:17.085] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:17.657] Server  LOG      ✓ Compiled in 75ms
+[00:30:18.434] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:18.434] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:30:18.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672586749}
+[00:30:18.434] Browser ERROR   uncaughtError: TypeError: events.flatMap is not a function
+[00:30:20.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:21.188] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:21.188] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:30:21.188] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672589863}
+[00:30:21.189] Browser ERROR   uncaughtError: TypeError: events.flatMap is not a function
+[00:30:26.620] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:26.638] Server  LOG      ✓ Compiled in 84ms
+[00:30:27.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:28.388] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:28.389] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events","route":"/events"}
+[00:30:28.389] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672597159}
+[00:30:28.524] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[00:31:32.157] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:32.465] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:31:32.466] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/scanner","route":"/scanner"}
+[00:31:32.466] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763672661234}
+[09:55:30.820] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706493171}
+[09:55:36.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/create color: rgb(120, 120, 120) color: inherit {"dp":"/events/create","o":"http://localhost:3000/events/create","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706498972}
+[09:55:39.955] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706502340}
+[09:55:42.252] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706504599}
+[10:01:50.695] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706873055}
+[10:01:50.817] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[10:01:57.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:01:57.230] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:01:57.230] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[10:01:57.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706879609}
+[10:01:59.172] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706881558}
+[10:02:00.439] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706882745}
+[10:02:00.439] Browser ERROR   uncaughtError: TypeError: events.map is not a function
+[10:02:04.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:02:04.404] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:02:04.404] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/scanner","route":"/scanner"}
+[10:02:04.404] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763706886783}
+[21:24:32.383] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/create color: rgb(120, 120, 120) color: inherit {"dp":"/events/create","o":"http://localhost:3000/events/create","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763747828975}
+[21:25:03.394] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/undefined color: rgb(120, 120, 120) color: inherit {"dp":"/events/[id]","o":"http://localhost:3000/events/undefined","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763747859952}
+[21:25:03.521] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'length')
+[21:25:18.395] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:25:18.601] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[21:25:18.601] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/events/create","route":"/events/create"}
+[21:25:18.601] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events/create color: rgb(120, 120, 120) color: inherit {"dp":"/events/create","o":"http://localhost:3000/events/create","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763747875172}
+[21:25:22.761] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scanner color: rgb(120, 120, 120) color: inherit {"dp":"/scanner","o":"http://localhost:3000/scanner","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763747879351}
