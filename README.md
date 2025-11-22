@@ -1,78 +1,71 @@
-🎟️ Event Check-In System
+# 🎟️ Event Check-In System
 
 A QR-based event attendance and management platform
 
-The Event Check-In System is a full-stack web application designed to simplify event registration and attendance tracking. Organizers can create events, generate unique QR codes, and allow participants to check in instantly using their mobile devices. The system logs all check-ins securely, provides real-time updates, and includes an admin dashboard for attendance insights.
+The **Event Check-In System** is a full-stack web application designed to simplify event registration and attendance tracking. Organizers can create events, generate unique QR codes, and allow participants to check in instantly using their mobile devices. The system logs all check-ins securely, provides real-time updates, and includes an admin dashboard for attendance insights.
 
-🚀 Features
-✅ Event Management
+---
 
-Create, update, and delete events
+## 🚀 Features
 
-Auto-generate unique QR codes for each event
+### ✅ **Event Management**
 
-Secure admin-only access
+* Create, update, and delete events
+* Auto-generate unique QR codes for each event
+* Secure admin-only access
 
-📱 QR Code-Based Check-In
+### 📱 **QR Code-Based Check-In**
 
-Participants scan the event QR code
+* Participants scan the event QR code
+* Instant authentication & check-in
+* Real-time database updates
 
-Instant authentication & check-in
+### 📊 **Admin Analytics Dashboard**
 
-Real-time database updates
+* Total check-ins
+* Live attendee count
+* Time-based check-in trends
+* Search & filter attendees
 
-📊 Admin Analytics Dashboard
+### 🔐 **Authentication & Security**
 
-Total check-ins
+* JWT-based authentication (if implemented)
+* Secure API routes
+* Validations for event and participant data
 
-Live attendee count
+---
 
-Time-based check-in trends
+## 🏗️ Tech Stack
 
-Search & filter attendees
+### **Frontend**
 
-🔐 Authentication & Security
+* React
+* TypeScript / JavaScript
+* TailwindCSS (optional)
+* QR Code Scanner library
 
-JWT-based authentication (if implemented)
+### **Backend**
 
-Secure API routes
+* Node.js
+* Express.js
+* REST APIs
+* QR Code Generator library
 
-Validations for event and participant data
+### **Database**
 
-🏗️ Tech Stack
-Frontend
+* PostgreSQL / MongoDB
+* Prisma / Mongoose ORM (optional)
 
-React
+### **Deployment**
 
-TypeScript / JavaScript
+* Vercel (Frontend)
+* Railway / Render (Backend)
 
-TailwindCSS (optional)
+---
 
-QR Code Scanner library
+## 📂 Folder Structure (Example)
 
-Backend
-
-Node.js
-
-Express.js
-
-REST APIs
-
-QR Code Generator library
-
-Database
-
-PostgreSQL / MongoDB
-
-Prisma / Mongoose ORM (optional)
-
-Deployment
-
-Vercel (Frontend)
-
-Railway / Render (Backend)
-
-📂 Folder Structure (Example)
+```
 event-checkin/
 │── backend/
 │   ├── controllers/
@@ -90,51 +83,84 @@ event-checkin/
 │   ├── public/
 │
 └── README.md
+```
 
-⚙️ Installation & Setup
-1. Clone the Repository
+---
+
+## ⚙️ Installation & Setup
+
+### **1. Clone the Repository**
+
+```bash
 git clone https://github.com/yourusername/event-checkin.git
 cd event-checkin
+```
 
-🖥️ Backend Setup
+---
+
+## 🖥️ Backend Setup
+
+```bash
 cd backend
 npm install
+```
 
-Create a .env file:
+### Create a `.env` file:
+
+```
 DATABASE_URL=your_db_url
 JWT_SECRET=your_secret_key
 PORT=5000
+```
 
-Start the backend:
+### Start the backend:
+
+```bash
 npm run dev
+```
 
-🌐 Frontend Setup
+---
+
+## 🌐 Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-📡 API Endpoints (Example)
-Event Routes
-Method	Endpoint	Description
-POST	/api/events	Create a new event
-GET	/api/events	Get all events
-GET	/api/events/:id	Get one event
-DELETE	/api/events/:id	Delete event
-Check-In Routes
-Method	Endpoint	Description
-POST	/api/checkin	Register attendee check-in
-GET	/api/checkin/:eventId	List check-ins for an event
-🧪 Testing the System
+---
 
-Open the frontend on your browser
+## 📡 API Endpoints (Example)
 
-Create an event
+### **Event Routes**
 
-Scan the generated QR code using a phone
+| Method | Endpoint          | Description        |
+| ------ | ----------------- | ------------------ |
+| POST   | `/api/events`     | Create a new event |
+| GET    | `/api/events`     | Get all events     |
+| GET    | `/api/events/:id` | Get one event      |
+| DELETE | `/api/events/:id` | Delete event       |
 
-Check the analytics dashboard for instant updates
+### **Check-In Routes**
 
-🎯 Project Goals
+| Method | Endpoint                | Description                 |
+| ------ | ----------------------- | --------------------------- |
+| POST   | `/api/checkin`          | Register attendee check-in  |
+| GET    | `/api/checkin/:eventId` | List check-ins for an event |
+
+---
+
+## 🧪 Testing the System
+
+* Open the frontend on your browser
+* Create an event
+* Scan the generated QR code using a phone
+* Check the analytics dashboard for instant updates
+
+---
+
+## 🎯 Project Goals
 
 This project is built to demonstrate:
 ✔️ Backend API design
@@ -143,19 +169,19 @@ This project is built to demonstrate:
 ✔️ Database-driven event management
 ✔️ Deployment on cloud platforms
 
-📌 Future Enhancements
+---
 
-Email-based event registration
+## 📌 Future Enhancements
 
-Export attendance reports (CSV / PDF)
+* Email-based event registration
+* Export attendance reports (CSV / PDF)
+* Multi-admin support
+* NFC-based check-in
+* Push notifications for event reminders
 
-Multi-admin support
+---
 
-NFC-based check-in
-
-Push notifications for event reminders
-
-🙌 Author
+## 🙌 Author
 
 ANAND TISHY THOMAS
 Computer Science Student
